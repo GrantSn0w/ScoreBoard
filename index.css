@@ -1,0 +1,114 @@
+@font-face {
+    font-display: swap;
+    font-family: myFont;
+    src: url(./CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 20px 0px 0px 0px;
+    background-color: #080001;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    border-radius: 15px;
+    border: 5px solid white;
+    margin: 0px auto;
+    background-color: #1B244A;
+    color: white;
+    
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0px solid #1B244A;
+    
+}
+
+.block{display: inline;
+    
+}
+.box{
+    display: flex;
+    margin: 0px auto;
+    width: 155px;
+    height: 120px;
+    border: 0px solid black;
+    border-radius: 5px;
+    background-color: #080001;
+    font-family: myFont;
+    font-weight: 400;
+    font-size: 60px;
+    color: #F94F6D;
+
+}
+
+h2{
+    margin:10px auto;
+}
+
+.minibox{
+    height: 45px;
+    width: 45px;
+    border: 1px solid#9AABD8;
+    margin-top: 35px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: myFont;
+    display: inline-block;
+    margin: 35px 0px auto 0px;
+}
+
+button{
+    background-color: #1B244A;
+    border: none;
+    padding-top: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #9AABD8;
+    padding: 15px 0px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border-radius: 55px;
+    box-shadow: 0 5px #999;
+    height: 50px;
+}
+
+button:hover{
+    cursor: grab;
+    padding: 5px;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+#refresh {
+    margin: auto 0px;
+    background-color: none;
+    font-size: 50px;
+    animation: animate 5s linear infinite;
+    height: 70px;
+}
+
+@keyframes animate{
+0%{
+  opacity: 0;
+}
+50%{
+  opacity: 0.7;
+}
+100%{
+  opacity: 0;
+}
+}
